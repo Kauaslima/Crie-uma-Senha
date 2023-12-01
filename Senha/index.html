@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Crie uma Senha Forte</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Crie uma Senha Forte</h1>
+        <form id="senhaForm">
+            <label for="entradaSenha">Nova Senha:</label>
+            <input type="password" id="entradaSenha" name="entradaSenha" placeholder="Digite sua senha" required>
+            <div id="medidorPoder"></div>
+            <div id="requisitos">
+                <span class="requisito" id="reqComprimento">Mínimo 8 caracteres</span>
+                <span class="requisito" id="reqMaiuscula">Pelo menos 1 letra maiúscula</span>
+                <span class="requisito" id="reqNumero">Pelo menos 1 número</span>
+                <span class="requisito" id="reqEspecial">Pelo menos 1 caractere especial</span>
+            </div>
+            <p id="textoPoder"></p>
+            <button type="button" id="mostrarSenha">Mostrar Senha</button>
+        </form>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
+
+
